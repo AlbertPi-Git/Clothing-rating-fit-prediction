@@ -20,7 +20,7 @@ import torch.optim as optim
 
 figs_path="/mnt/c/Users/AlbertPi/Desktop/" #Path to generate the dataset statistics Figs
 body_type_convertion_mod='onehot'  #'onehot' or 'integer'
-wordBag_size=10
+wordBag_size=1000
 wordBag_beginIndex=0
 
 #plot statistics of dataset
@@ -362,28 +362,28 @@ if __name__ == "__main__":
     print('Read dataset complete')
 
 #-------------------------plot statistics of dataset-----------------------------
-    # plot_dataset_statistics(dataset)
+    plot_dataset_statistics(dataset)
 
 #-------------------------rating prediction--------------------------------------
     print('-----------------------------------------')
     print('Using NaiveAverage')
     print('-----------------------------------------')
-    # rating_prediction(dataset,'NaiveAverage')
+    rating_prediction(dataset,'NaiveAverage')
 
     print('-----------------------------------------')
     print('Using LinearRegression')
     print('-----------------------------------------')
-    # rating_prediction(dataset,'LinearRegression')
+    rating_prediction(dataset,'LinearRegression')
 
     print('-----------------------------------------')
     print('Using LatentFactorModel')
     print('-----------------------------------------')
-    # rating_prediction(dataset,'LatentFactorModel')
+    rating_prediction(dataset,'LatentFactorModel')
 
     print('-----------------------------------------')
     print('Using DenseNet')
     print('-----------------------------------------')
-    # rating_prediction(dataset,'DenseNet')
+    rating_prediction(dataset,'DenseNet')
     
 #-------------------------fit prediction-----------------------------------------
     print('-----------------------------------------')
