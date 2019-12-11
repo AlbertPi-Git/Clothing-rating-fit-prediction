@@ -1,6 +1,6 @@
 # Rating and fit prediction on RentTheRunWay dataset
 
-This is the project of Web Mining and Recommender Systems course at UCSD. Rating and fit prediction with different models on RentTheRunWay dataset are conducted. 
+This is the project of Web Mining and Recommender Systems course at UCSD. Rating and fit prediction with different models on RentTheRunWay dataset are conducted. Models are implemented with sklearn library and PyTorch.
 
 ## Acknowledgement
 The dataset is provided by Prof. Julian McAuley at https://cseweb.ucsd.edu/~jmcauley/datasets.html.
