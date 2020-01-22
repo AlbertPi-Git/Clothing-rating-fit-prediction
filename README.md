@@ -37,4 +37,4 @@ Logistic regression, SVM, random forest and gradient boosting are implemented an
 ![fit performance](./Figs/fit_performance.png "Performance of different models on fit prediction")
 
 ## Detail
-The detail of RentTheRunWay dataset and implementation can be seen in our PDF report.
+The detail of RentTheRunWay dataset and implementation can be found in our PDF report.
